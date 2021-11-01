@@ -6,4 +6,5 @@
 #SBATCH --gres=gpu:1
 #SBATCH --constraint=v100
 module load cuda
+module load machine_learning/2020.09
 srun python hello.py
