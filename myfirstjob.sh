@@ -6,4 +6,4 @@
 #SBATCH --gres=gpu:1
 #SBATCH --constraint=v100
 module load cuda
-srun ./helloworld
+srun ./hello
